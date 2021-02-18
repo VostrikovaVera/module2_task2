@@ -1,0 +1,4 @@
+C:\Users\Vira\source\repos\VostrikovaVera\module2_task1\Module2Task1\Module2Task1\obj\Debug\net5.0\Module2Task1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vira\source\repos\VostrikovaVera\module2_task1\Module2Task1\Module2Task1\obj\Debug\net5.0\Module2Task1.AssemblyInfoInputs.cache
+C:\Users\Vira\source\repos\VostrikovaVera\module2_task1\Module2Task1\Module2Task1\obj\Debug\net5.0\Module2Task1.AssemblyInfo.cs
+C:\Users\Vira\source\repos\VostrikovaVera\module2_task1\Module2Task1\Module2Task1\obj\Debug\net5.0\Module2Task1.csproj.CoreCompileInputs.cache
