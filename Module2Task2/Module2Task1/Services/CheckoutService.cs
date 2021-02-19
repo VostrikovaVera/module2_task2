@@ -45,7 +45,7 @@ namespace Module2Task2.Services
                 _orderNotification.AppendLine(itemDescription);
             }
 
-            var notificationFooter = $"Total price of your order is {_orderTotal}";
+            var notificationFooter = $"Total price of your order is {_orderTotal} UAH";
             _orderNotification.AppendLine(notificationFooter);
         }
     }

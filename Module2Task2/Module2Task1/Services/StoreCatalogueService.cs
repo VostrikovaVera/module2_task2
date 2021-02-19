@@ -4,21 +4,21 @@ using System;
 
 namespace Module2Task2
 {
-    class StoreCatalogue
+    class StoreCatalogueService
     {
-        private static readonly StoreCatalogue _instance = new StoreCatalogue();
+        private static readonly StoreCatalogueService _instance = new StoreCatalogueService();
         private Item[] _allItems = new Item[15];
         private int _catalogueItemsCount = 0;
 
-        static StoreCatalogue()
+        static StoreCatalogueService()
         {
         }
 
-        private StoreCatalogue()
+        private StoreCatalogueService()
         {
         }
 
-        public static StoreCatalogue Instance => _instance;
+        public static StoreCatalogueService Instance => _instance;
 
         public void AddItem(int id, string name, decimal price, Currency currency, MeasureUnits measureUnit, Countries сountryOfOrigin)
         {

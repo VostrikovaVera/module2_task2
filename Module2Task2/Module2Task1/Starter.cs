@@ -11,10 +11,10 @@ namespace Module2Task2
         private int _orderNumber = 0;
         private readonly CatalogDataProvider _catalogDataProvider = new CatalogDataProvider();
         private readonly User _user = new User { FirstName = "John", LastName = "Doe", Email = "j.doe@gmail.com", PhoneNumber = "123123123123",PrefferedNotificationMethod = NotificationMethods.Email };
-        private readonly StoreCatalogue _storeCatalogue = StoreCatalogue.Instance;
-        private readonly Cart _cart = new Cart();
+        private readonly StoreCatalogueService _storeCatalogue = StoreCatalogueService.Instance;
+        private readonly CartService _cart = new CartService();
         private readonly int _minRandomAction = 0;
-        private readonly int _maxRandomAction = 9;
+        private readonly int _maxRandomAction = 10;
         private readonly Random _random = new Random();
         private readonly CheckoutService _checkoutService = new CheckoutService();
 
@@ -28,7 +28,8 @@ namespace Module2Task2
 
             for (var i = 0; i < 7; i++)
             {
-                _cart.AddItem(allItems[_random.Next(_minRandomAction, _maxRandomAction)]);
+                var newItem = allItems[_random.Next(_minRandomAction, _maxRandomAction)];
+                _cart.AddItem(newItem);
             }
 
             var itemsInCart = _cart.GetAllItems();

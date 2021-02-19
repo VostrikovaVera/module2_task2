@@ -2,9 +2,9 @@
 
 namespace Module2Task2
 {
-    class Cart
+    class CartService
     {
-        private Item[] _allItems = new Item[10];
+        private Item[] _allItems = new Item[7];
         private int _cartItemsCount = 0;
 
         public void AddItem(Item item)
