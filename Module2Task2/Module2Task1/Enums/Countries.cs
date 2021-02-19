@@ -2,6 +2,7 @@
 {
     public enum Countries
     {
+        Egypt,
         Georgia,
         Israel,
         Spain,

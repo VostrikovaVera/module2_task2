@@ -1,4 +1,4 @@
-﻿namespace Module2Task1
+﻿namespace Module2Task2
 {
     class Program
     {

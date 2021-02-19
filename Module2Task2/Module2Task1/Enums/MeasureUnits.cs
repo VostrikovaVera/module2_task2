@@ -5,5 +5,6 @@
         Kilo,
         Gram,
         SingleItem,
+        Pack,
     }
 }
